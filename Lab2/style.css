@@ -1,0 +1,58 @@
+* {
+    font-family: 'Lumanosimo', cursive;
+    text-shadow: 2px 2px green;
+}
+h1 {color: red; }
+h2 {color: green; }
+p {color: blue; }
+a {color: yellow; }
+
+body {background: black;}
+header {background: grey; }
+nav {background: darkred; }
+main {background: darkgoldenrod; }
+footer {background: salmon;}
+
+.class1 {font-weight: lighter}
+.class2 {font-weight: normal; font-style: italic; font-family: "san-serif"}
+.class3 {font-weight: bolder}
+
+img {display: block;
+    margin: 20px;
+    border: 2px solid red;
+     /*height: 100px;
+     width: 100px;*/
+    object-fit: cover; 
+    object-position: 50% 50%;
+    border-radius:10px;
+    margin: auto;
+    box-shadow: 0 8px 16px 4px red;
+}
+
+figure {display: inline-block; position: relative; height: 50%}
+
+#img1 {filter: blur(5px)} 
+#img2 {filter: brightness(100%) contrast(150%);}
+#img3 {filter: grayscale(80%);}
+#img4 {filter: hue-rotate(50deg);}
+#img5 {filter: invert(80%);}
+#img6 {filter: invert() sepia() saturate(500%) hue-rotate(50deg);}
+
+header {
+    position: relative;
+    height: 40px;
+}
+h1 {
+    position: absolute;
+    left: 80px;
+    top: 70px;
+}
+
+footer {
+    text-align: center;
+    padding: 60px;
+}
+
+figcaption {
+    position: absolute; left: 50%; top: 75%; text-align: center; transform: translateX(-50%) translateY(-50%);
+}
