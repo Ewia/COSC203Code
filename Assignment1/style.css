@@ -1,6 +1,19 @@
+* {
+    font-family: 'Belanosima', sans-serif;
+}
+
+header {
+    background-color: #b30000;
+}
 aside {
     float: left;
+    background-color: #ffe6cc;
 }
-main {
-    float: left;
+footer {
+    clear: left;
+    background-color: #b30000;
+  }
+form {
+    display: flex;
+    flex-direction: column;
 }
