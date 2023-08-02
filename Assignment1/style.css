@@ -4,16 +4,40 @@
 
 header {
     background-color: #b30000;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    width: 100%;
+    height: 150px;
+    display: flex;
 }
 aside {
     float: left;
     background-color: #ffe6cc;
+    width: 20%;
+    height: 100vh;
 }
 footer {
     clear: left;
     background-color: #b30000;
+    text-align: center;
+    color: gray;
+    height: 20px;
   }
 form {
     display: flex;
     flex-direction: column;
 }
+
+.logo {
+    height: 100%;
+}
+.divLogo {
+    width: 20%; 
+}
+
+#title {
+    padding: 45px;
+    width: 60%;
+} 
