@@ -4,8 +4,10 @@
 
 body
 {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: 100px 1fr 20px;
+    grid-template-columns: 1.5fr 8.5fr;
 }
 
 header {
@@ -14,14 +16,12 @@ header {
     font-size: 5vw;
     color: white;
     -webkit-text-stroke: 2px black;
-    width: 100%;
-    height: 100px;
+    grid-column: span 2;
     display: flex;
 }
 aside {
     float: left;
     background-color: #ffe6cc;
-    width: 20%;
     flex:1;
 }
 
@@ -33,9 +33,10 @@ footer {
     background-color: #b30000;
     text-align: center;
     color: gray;
-    margin-top: calc(100%- 20px);
-    height: 20px;
+    grid-column: span 2;
   }
+
+
 
 
 form {
@@ -43,14 +44,14 @@ form {
     flex-direction: column;
 }
 
+
 .logo {
     height: 100%;
-    width:100%;
+    width: same-as-height;
 }
 .divLogo {
     width: 20%; 
 }
-
 #title {
     width: 60%;
 } 
