@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Birds of Aotearoa</title>
+    <meta charset="utf8">
+    <link href="./style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="divLogo"><img src="KeaLogo.png" alt="Scout Kea Image" class="logo"></div>
+        <div id="title">Birds of New Zealand</div>
+        <div class="divLogo"><img src="KeaLogo.png" alt="Scout Kea Image" class="logo"></div>
+    </header>
+    <aside>
+        <form action ="">
+        <label for="search">Search</label>
+        <input type="text" for="search">
+        <label for="conservationstatus">Conservation Status</label>
+        <select name="conservationstatus" id="conservationstatus">
+            <option value="all">Alel</option>
+            <option value="notThreatened">Not Threatened</option>
+            <option value="naturallyUncommon">Naturally Uncommon</option>
+            <option value="relicit">Relicit</option>
+            <option value="recovering">Recovering</option>
+            <option value="declining">Declining</option>
+            <option value="nationallyIncreasing">Nationally Increasing</option>
+            <option value="nationallyVulnerable">Nationally Vulnerable</option>
+            <option value="nationallyEndangered">Nationally Endangered</option>
+            <option value="nationallyCritical">Nationally Critical</option>
+            <option value="dataDeficient">Data Deficient</option>
+        </select>
+        <label for="sortby">Sort By</label>
+        <select name="sortby" id="sortby">
+        <option value="englishName">English Name</option>
+        <option value="maoriName">Maori Name</option>
+        <option value="scientificName">Scientific Name</option>
+        <option value="lightestToHeaviest">Lightest to Heaviest</option>
+        <option value="heaviestToLightest">Heaviest to Lightest</option>
+        <option value="shortestToLongest">Shortest to Longest</option>
+        <option value="longestToShortest">Longest to Shortest</option>
+        </select>
+        <button>Filter Results</button>
+        </form>
+        <p id="numberOfResults"></p>
+        <div>
+            <div class="conservationbox">
+                <div></div>
+                <p>Not Threatened</p>
+            </div>
+            <div class="conservationbox">
+                <div></div>
+                <p>Naturally Uncommon</p>
+            </div>
+            <div class="conservationbox">
+                <div></div>
+                <p>Relicit</p>
+            </div>
+            <div class="conservationbox">
+                <div></div>
+                <p>Recovering</p>
+            </div>
+            <div class="conservationbox">
+                <div></div>
+                <p>Declining</p>
+            </div>
+            <div class="conservationbox">
+                <div></div>
+                <p>Nationally Increasing</p>
+            </div>
+            <div class="conservationbox">
+                <div></div>
+                <p>Nationally Vulnerable</p>
+            </div>
+            <div class="conservationbox">
+                <div></div>
+                <p>Nationally Endangered</p>
+            </div>
+            <div class="conservationbox">
+                <div></div>
+                <p>Nationally Critical</p>
+            </div>
+            <div class="conservationbox">
+                <div></div>
+                <p>Data Deficient</p>
+            </div>
+        </div>
+        <p>Conservation status from <a href="https://www.doc.govt.nz/">DOC website</a></p>
+    </aside>
+    <main>
+        <p>Yeah</p>
+        <p>Yeah</p>
+        <p>Yeah</p>
+        <p>Yeah</p>
+    </main>
+    <footer>Data licensed from <a href="https://www.birdsnz.org.nz/">Birds New Zealand</a> for educational uses within the University</footer>
+</body>
+</html>
